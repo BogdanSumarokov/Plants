@@ -21,9 +21,8 @@ body {
     align-items: center;
 }
 
-.navbar {
+.wrapper {
     width: 1220px;
-    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,4 +64,56 @@ body {
 .active--link {
     color: #E06733;
     font-weight: 700;
+}
+
+.welcome {
+    width: 1440px;
+    height: 532px;
+    background: var(--sec-bg-cl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-wrapper {
+    height: 407.36px;
+}
+
+.welcome-text {
+    width: 549px;
+    height: 340px;
+}
+
+.welcome-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+    margin: 0;
+}
+
+.welcome-mark {
+    color: #499A18;
+}
+
+.welcome-paragraf {
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+    margin: 42px 0 48px;
+}
+
+.welcome-button {
+    width: 158px;
+    height: 44px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    font-family: 'Inter';
+}
+.welcome-button:hover {
+    background: #E06733;
+    color: #FFFFFF;
 }
