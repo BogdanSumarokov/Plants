@@ -116,4 +116,46 @@ body {
 .welcome-button:hover {
     background: #E06733;
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+.about {
+    width: 1440px;
+    height: 666px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-wrapper {
+}
+.about-text {
+    width: 605px;
+    height: 350px;
+}
+.about-header {
+    width: 463px;
+    height: 102px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    margin: 0 0 40px;
+}
+
+.about-header>span {
+    color: #E06733;
+}
+
+.about-paragraf {
+    width: 605px;
+    height: 208px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+    margin: 0;
 }
